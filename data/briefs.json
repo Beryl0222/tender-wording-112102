@@ -1,0 +1,84 @@
+[
+  {
+    "id": "Q10",
+    "kind": "spec",
+    "lot": "北区",
+    "language": "zh",
+    "text": "4.2 北区墙盒需跨构件的联装样证明。4.4 再生芯层合格证可用 4.2 联装样的附件代替，单块不适用。"
+  },
+  {
+    "id": "Q20",
+    "kind": "spec",
+    "lot": "南区",
+    "language": "zh",
+    "text": "4.2 南区拼件可用同批出厂件检测，各件单独提供原件。"
+  },
+  {
+    "id": "Q21",
+    "kind": "question",
+    "lot": null,
+    "language": "en",
+    "supplier": "企业甲",
+    "private_tokens": [
+      "Blue Acorn",
+      "635 mm"
+    ],
+    "text": "Blue Acorn's 635 mm box, as a pair under 4.2, can we substitute the site test for the same assembled specimen?"
+  },
+  {
+    "id": "Q22",
+    "kind": "question",
+    "lot": "南区",
+    "language": "zh",
+    "supplier": "企业乙",
+    "private_tokens": [
+      "翠榆",
+      "472毫米"
+    ],
+    "text": "翠榆 472毫米拼件没有原件，可否把同批报告只交一份？"
+  },
+  {
+    "id": "Q23",
+    "kind": "reply",
+    "decision": "unissued",
+    "lot": null,
+    "language": "zh",
+    "text": "旧稿 4.2 也许都能单块补。"
+  },
+  {
+    "id": "Q24",
+    "kind": "clarification",
+    "decision": "issued",
+    "issued_at": "2026-10-16T10:00:00+08:00",
+    "lot": null,
+    "language": "zh",
+    "text": "适用有联合装配样的墙盒。4.2 可用同批到场联合样代复检，单块不能；4.4 不变。"
+  },
+  {
+    "id": "Q25",
+    "kind": "translation",
+    "lot": null,
+    "language": "en",
+    "pair": "Q24",
+    "text": "Single fabricated modules may use an on-site joint sample, assembled sets must use the original inspection.",
+    "received_at": "2026-10-21T09:00:00+08:00"
+  },
+  {
+    "id": "Q26",
+    "kind": "clarification",
+    "decision": "issued",
+    "issued_at": "2026-10-22T10:00:00+08:00",
+    "lot": "北区",
+    "language": "zh",
+    "pair": "Q24",
+    "text": "更正版：到场样仅接受以联合装配状态验收；中文 4.4 原文不变。南区无变化。"
+  },
+  {
+    "id": "Q27",
+    "kind": "translation",
+    "lot": "北区",
+    "language": "en",
+    "pair": "Q26",
+    "text": "On-site sampling is equivalent for specimens tested as an assembled set only. Clause 4.4 is unchanged."
+  }
+]

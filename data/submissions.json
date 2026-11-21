@@ -1,0 +1,100 @@
+[
+  {
+    "id": "T1",
+    "lot": "北区",
+    "supplier": "企业甲",
+    "option": "联合样A",
+    "choices": [
+      "A墙盒",
+      "A芯层"
+    ],
+    "proof": [
+      "E1"
+    ],
+    "filed": "2026-10-15"
+  },
+  {
+    "id": "T2",
+    "lot": "南区",
+    "supplier": "企业甲",
+    "option": "拼件Z",
+    "choices": [
+      "Z面件"
+    ],
+    "proof": [
+      "E1",
+      "E2"
+    ],
+    "filed": "2026-10-15"
+  },
+  {
+    "id": "T3",
+    "lot": "北区",
+    "supplier": "企业乙",
+    "option": "联合样M",
+    "choices": [
+      "M墙盒",
+      "M芯层"
+    ],
+    "proof": [
+      "E3"
+    ],
+    "filed": "2026-10-15"
+  },
+  {
+    "id": "E1",
+    "kind": "proof",
+    "usable_for": [
+      "A墙盒",
+      "A芯层",
+      "Z面件"
+    ],
+    "text": "该报告是一份联合到场样，附件记录芯层，只对 A 组合有联合样结论。"
+  },
+  {
+    "id": "E2",
+    "kind": "proof",
+    "usable_for": [
+      "Z面件"
+    ],
+    "text": "Z面件自己的同批检测原件。"
+  },
+  {
+    "id": "E3",
+    "kind": "proof",
+    "usable_for": [
+      "M墙盒",
+      "M芯层"
+    ],
+    "text": "联合样还没见到，送过两件独立块，可追问供应商。"
+  },
+  {
+    "id": "H1",
+    "kind": "tender_clock",
+    "deadline": "2026-10-20T17:00:00+08:00",
+    "reconfirm_until": "2026-10-24T17:00:00+08:00"
+  },
+  {
+    "id": "T4",
+    "lot": "北区",
+    "supplier": "企业丙",
+    "option": "联合样U",
+    "choices": [
+      "U墙盒",
+      "U芯层"
+    ],
+    "proof": [
+      "E4"
+    ],
+    "filed": "2026-10-15"
+  },
+  {
+    "id": "E4",
+    "kind": "proof",
+    "usable_for": [
+      "U墙盒",
+      "U芯层"
+    ],
+    "text": "U 墙盒和芯层送过一次联合装配原件检测，原件含芯层附页。"
+  }
+]
